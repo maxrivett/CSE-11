@@ -1,0 +1,11 @@
+max.rivett$ java Longest which argument is the longest
+argument
+max.rivett$ java Longest one two three four
+three
+max.rivett$ java Longest
+max.rivett$ java Longest 1 11 111 1111 111 11 1
+1111
+max.rivett$ java Longest this will be a tie!
+this
+max.rivett$ java Longest random words words random
+random

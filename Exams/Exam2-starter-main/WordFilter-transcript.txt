@@ -1,0 +1,14 @@
+max.rivett$ javac WordFilter.java
+max.rivett$ java WordFilter an apple banana panama orangutan pizza
+banana
+panama
+orangutan
+max.rivett$ java WordFilter not-a-substring apple banana panama
+0 words contained "not-a-substring"
+max.rivett$ java WordFilter app apple banana app panama orangutan pizza
+apple
+app
+max.rivett$ java WordFilter
+Provide at least one command-line argument
+max.rivett$ java WordFilter something
+0 words contained "something"

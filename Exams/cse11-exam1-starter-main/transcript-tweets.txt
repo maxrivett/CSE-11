@@ -1,0 +1,57 @@
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: ExamplesTweets:
+---------------------------
+ExamplesTweets:
+---------------
+new ExamplesTweets:1(
+ this.u1 = new User:2(
+  this.name = "Max Rivett"
+  this.email = "mrivett@ucsd.edu"
+  this.followers = 100)
+ this.u2 = new User:3(
+  this.name = "Joe Smith"
+  this.email = "joe@gmail.com"
+  this.followers = 50)
+ this.t1 = new Tweet:4(
+  this.author = User:2
+  this.content = "Happy Halloween!"
+  this.tweetId = "1688513816885138"
+  this.likes = 2500
+  this.datePosted = new Date:5(
+   this.year = 2020
+   this.month = 10
+   this.day = 31))
+ this.t2 = new Tweet:6(
+  this.author = User:3
+  this.content = "Hello World!"
+  this.tweetId = "3141592653589793"
+  this.likes = 5
+  this.datePosted = new Date:7(
+   this.year = 2020
+   this.month = 7
+   this.day = 15))
+ this.t3 = new Tweet:8(
+  this.author = User:2
+  this.content = "It's almost Halloween!"
+  this.tweetId = "1234567898765432"
+  this.likes = 1500
+  this.datePosted = new Date:9(
+   this.year = 2020
+   this.month = 10
+   this.day = 24))
+ this.t4 = new Tweet:10(
+  this.author = User:3
+  this.content = "Happy New Years!"
+  this.tweetId = "1111111111111111"
+  this.likes = 3
+  this.datePosted = new Date:11(
+   this.year = 2021
+   this.month = 1
+   this.day = 1))
+ this.tweetExample1 = false
+ this.tweetExample2 = true
+ this.tweetExample3 = false
+ this.tweetExample4 = false)
+---------------
+No test methods found.

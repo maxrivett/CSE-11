@@ -1,0 +1,85 @@
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: ExamplesTweets:
+---------------------------
+ExamplesTweets:
+---------------
+new ExamplesTweets:1(
+ this.joe = new User:2(
+  this.username = "joepolitz"
+  this.fullName = "Joe Gibbs Politz"
+  this.followers = 999)
+ this.greg = new User:3(
+  this.username = "gregory_miranda"
+  this.fullName = "Greg Miranda"
+  this.followers = 9999)
+ this.rachel = new User:4(
+  this.username = "Rachel__Lim"
+  this.fullName = "Rachel Lim"
+  this.followers = 1000000)
+ this.t1 = new TextTweet:5(
+  this.content = "Java 17 has a cool feature called records"
+  this.likes = 77
+  this.author = User:2)
+ this.t2 = new ReplyTweet:6(
+  this.content = "Hmm I wonder if we could use it for CSE11"
+  this.likes = 12
+  this.author = User:3
+  this.replyTo = TextTweet:5)
+ this.t3 = new ReplyTweet:7(
+  this.content = "Thought about this more, probably not yet, too new."
+  this.likes = 73
+  this.author = User:3
+  this.replyTo = ReplyTweet:6)
+ this.t4 = new ReplyTweet:8(
+  this.content = "Yeah, good point. Maybe in 2022."
+  this.likes = 10
+  this.author = User:2
+  this.replyTo = ReplyTweet:7)
+ this.t5 = new ReplyTweet:9(
+  this.content = "Yeah... I don't want to rewrite the book right this minute"
+  this.likes = 1005
+  this.author = User:4
+  this.replyTo = ReplyTweet:6)
+ this.max = new User:10(
+  this.username = "max.rivett"
+  this.fullName = "Max Rivett"
+  this.followers = 1000)
+ this.bot = new User:11(
+  this.username = "testbot"
+  this.fullName = "Test Bot"
+  this.followers = 0)
+ this.justin = new User:12(
+  this.username = "justin_trudeau"
+  this.fullName = "Justin Trudeau"
+  this.followers = 35000000)
+ this.tweet1 = new TextTweet:13(
+  this.content = "Hello fellow Canadians"
+  this.likes = 1867
+  this.author = User:12)
+ this.tweet2 = new ReplyTweet:14(
+  this.content = "Do you respond to your replies?"
+  this.likes = 151
+  this.author = User:10
+  this.replyTo = TextTweet:13)
+ this.tweet3 = new ReplyTweet:15(
+  this.content = "I can respond to you. Do you have a question?"
+  this.likes = 0
+  this.author = User:11
+  this.replyTo = ReplyTweet:14)
+ this.tweet4 = new ReplyTweet:16(
+  this.content = "Yeah, but now I forgot it."
+  this.likes = 10
+  this.author = User:10
+  this.replyTo = ReplyTweet:15)
+ this.tweet5 = new ReplyTweet:17(
+  this.content = "Question: What are your plans for your third term?"
+  this.likes = 10000
+  this.author = User:10
+  this.replyTo = TextTweet:13))
+---------------
+
+Ran 33 tests.
+All tests passed.
+
+--- END OF TEST RESULTS ---

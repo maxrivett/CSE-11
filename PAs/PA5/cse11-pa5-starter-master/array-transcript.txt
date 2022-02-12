@@ -1,0 +1,13 @@
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: ProvidedArrayExamples:
+---------------------------
+ProvidedArrayExamples:
+---------------
+new ProvidedArrayExamples:1()
+---------------
+
+Ran 19 tests.
+All tests passed.
+
+--- END OF TEST RESULTS ---

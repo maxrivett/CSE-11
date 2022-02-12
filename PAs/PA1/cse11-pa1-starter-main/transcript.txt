@@ -1,0 +1,63 @@
+Perimeter output:
+
+MacBook-Pro-5:cse11-pa1-starter-main max.rivett$ ./run DesignRecipeExamples
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: DesignRecipeExamples:
+---------------------------
+DesignRecipeExamples:
+---------------
+new DesignRecipeExamples:1(
+ this.p1 = 18
+ this.p2 = 36)
+---------------
+No test methods found.
+
+Border area output:
+
+MacBook-Pro-5:cse11-pa1-starter-main max.rivett$ ./run DesignRecipeExamples
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: DesignRecipeExamples:
+---------------------------
+DesignRecipeExamples:
+---------------
+new DesignRecipeExamples:1(
+ this.ba1 = 30
+ this.ba2 = 29
+ this.ba3 = -1)
+---------------
+No test methods found.
+
+Converter output:
+
+MacBook-Pro-5:cse11-pa1-starter-main max.rivett$ ./run DesignRecipeExamples
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: DesignRecipeExamples:
+---------------------------
+DesignRecipeExamples:
+---------------
+new DesignRecipeExamples:1(
+ this.dts1 = 60
+ this.dts2 = 144)
+---------------
+No test methods found.
+
+Combiner output:
+
+MacBook-Pro-5:cse11-pa1-starter-main max.rivett$ ./run DesignRecipeExamples
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: DesignRecipeExamples:
+---------------------------
+DesignRecipeExamples:
+---------------
+new DesignRecipeExamples:1(
+ this.macc1 = 193
+ this.macc2 = 4106)
+---------------
+No test methods found.
+
+
+
